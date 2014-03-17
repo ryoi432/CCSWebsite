@@ -1,0 +1,4 @@
+RewriteEngine  on
+RewriteBase    /ccs/new/only/
+RewriteCond %{REQUEST_URI} !auth.cgi [NC]
+RewriteRule    ^(.*)$  auth.cgi?file=$1 [L]

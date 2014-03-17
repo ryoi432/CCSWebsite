@@ -1,0 +1,13 @@
+article ul {
+	width: 400px;
+	margin: 10px 40px;
+	float: left;
+}
+
+article ul li {
+	height: 2em;
+}
+
+article p {
+	margin-left: 35px;
+}

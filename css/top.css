@@ -1,0 +1,19 @@
+div#IntroduceCCS_Box{
+	position: absolute;
+	top: 80px;
+	left: 160px;
+	width: 150px;
+	font-size:16pt;
+	color:#FFFFFF;
+	/*text-shadow: 1px 1px 0px #AAAAAA, 3px 3px 2px #666666;*/
+}
+
+div#IntroduceCCS_Content{
+	position: absolute;
+	top: 80px;
+	left: 170px;
+	width: 130px;
+	font-size:16pt;
+	color:#000000;
+	/*text-shadow: 1px 1px 0px #AAAAAA, 3px 3px 2px #666666;*/
+}

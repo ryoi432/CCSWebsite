@@ -1,0 +1,17 @@
+article p {
+	margin: 15px 25px;
+	line-height: 220%;
+	text-indent: 1em;
+}
+
+article table {
+	margin: 10px 30px;
+}
+
+article table th,td {
+	padding: 10px;
+}
+
+article table th {
+	font-weight: bold;
+}

@@ -1,0 +1,152 @@
+article p {
+	margin: 15px 20px;
+}
+
+#top-box {
+	width: 898px;
+	margin: 15px;
+	padding: 15px;
+	border: 1px solid #aaaaaa;
+	background: #ffffff;
+}
+
+#summary-image {
+	width: 450px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#summary-image img {
+	
+}
+
+#summary {
+	width: 450px;
+	margin-left: 450px;
+}
+
+#summary table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 450px;
+}
+
+#summary table th,td {
+	height: 2em;
+	padding: 20px;
+	margin: 20px 0;
+	border-top: 1px solid #aaaaaa;
+}
+
+#summary table th {
+	font-weight: bold;
+	width: 100px;
+}
+
+#summary table tr:first-child th {
+	border-top: 0;
+}
+
+#summary table tr:first-child td {
+	border-top: 0;
+}
+
+#works_list {
+	line-height: 0;
+}
+
+#works_list .box {
+	position: relative;
+	width: 960px;
+}
+
+#works_list .box .caption {
+	position: absolute;
+	height: 290px;
+	width: 940px;
+	top: 0px;
+	line-height: 50px;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 10px;
+	text-shadow: 1px 1px 0px #555;
+}
+
+.event_date {font-size: 150%;}
+.event_name {font-size: 220%;}
+.event_location {font-size: 120%;}
+
+.go {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/*
+#works_list .box .caption:after {
+	position: absolute;
+	content: url('../image/go.png');
+	top: 0px;
+	left: 860px;
+	width: 100px;
+	height: 300px;
+	opacity: 0.5;
+	-moz-transition: opactiy .15s ease-in-out;
+	transition: opactiy .15s ease-in-out;
+}
+
+#works_list .box .caption:after:hover {
+	opacity: 1;
+}
+*/
+
+#works_list a {
+	text-decoration: none;
+	background: #000000;
+	display: inline-block;
+}
+
+#works_list img {
+	margin-left: 372px;
+}
+
+#caption_c83 {
+	background: linear-gradient(left , rgb(141,21,30) 39%, rgba(141,21,30,0) 70%);
+	background: -o-linear-gradient(left , rgb(141,21,30) 39%, rgba(141,21,30,0) 70%);
+	background: -moz-linear-gradient(left , rgb(141,21,30) 39%, rgba(141,21,30,0) 70%);
+	background: -webkit-linear-gradient(left , rgb(141,21,30) 39%, rgba(141,21,30,0) 70%);
+	background: -ms-linear-gradient(left , rgb(141,21,30) 39%, rgba(141,21,30,0) 70%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.39, rgb(141,21,30)), color-stop(0.7, rgba(141,21,30,0)));
+}
+#caption_c82 {
+	background: linear-gradient(left , rgb(25,64,136) 39%, rgba(25,64,136,0) 70%);
+	background: -o-linear-gradient(left , rgb(25,64,136) 39%, rgba(25,64,136,0) 70%);
+	background: -moz-linear-gradient(left , rgb(25,64,136) 39%, rgba(25,64,136,0) 70%);
+	background: -webkit-linear-gradient(left , rgb(25,64,136) 39%, rgba(25,64,136,0) 70%);
+	background: -ms-linear-gradient(left , rgb(25,64,136) 39%, rgba(25,64,136,0) 70%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.39, rgb(25,64,136)), color-stop(0.7, rgba(25,64,136,0)));
+}
+#caption_2012_introduce {
+	background: linear-gradient(left , rgb(202,78,154) 39%, rgba(202,78,154,0) 70%);
+	background: -o-linear-gradient(left , rgb(202,78,154) 39%, rgba(202,78,154,0) 70%);
+	background: -moz-linear-gradient(left , rgb(202,78,154) 39%, rgba(202,78,154,0) 70%);
+	background: -webkit-linear-gradient(left , rgb(202,78,154) 39%, rgba(202,78,154,0) 70%);
+	background: -ms-linear-gradient(left , rgb(202,78,154) 39%, rgba(202,78,154,0) 70%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.39, rgb(202,78,154)), color-stop(0.7, rgba(202,78,154,0)));
+}
+#caption_2012_chibafes {
+	background: linear-gradient(left , rgb(70,151,91) 39%, rgba(70,151,91,0) 70%);
+	background: -o-linear-gradient(left , rgb(70,151,91) 39%, rgba(70,151,91,0) 70%);
+	background: -moz-linear-gradient(left , rgb(70,151,91) 39%, rgba(70,151,91,0) 70%);
+	background: -webkit-linear-gradient(left , rgb(70,151,91) 39%, rgba(70,151,91,0) 70%);
+	background: -ms-linear-gradient(left , rgb(70,151,91) 39%, rgba(70,151,91,0) 70%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.39, rgb(70,151,91)), color-stop(0.7, rgba(70,151,91,0)));
+}
+
+#past_works_list {
+	margin: 15px 50px;
+	list-style-type: disc;
+	line-height: 200%;
+}
