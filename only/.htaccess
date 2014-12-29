@@ -1,6 +1,6 @@
 RewriteEngine  on
-RewriteBase    /ccs/new/only/
-RewriteCond %{REQUEST_URI} !auth.pl [NC]
-RewriteRule    ^(.*)$  auth.pl?file=$1 [L]
+RewriteBase /ccs/new/only/
+RewriteCond %{HTTP_COOKIE} !onlyhash=pc
+RewriteRule ^(.*)$ login.html [L]
 
 AddHandler cgi-script pl
