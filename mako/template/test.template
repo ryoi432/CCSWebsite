@@ -1,0 +1,15 @@
+名前 : ${name}
+タイトル : ${view.title}
+本文 : ${view.body}
+
+if文
+% if 1+1 2:
+1 + 1は2です。
+% else:
+1 + 1は2ではありません。
+%endif
+
+for文
+% for x in xrange(10):
+${x}回目の出力です。
+% endfor
