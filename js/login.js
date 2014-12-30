@@ -20,9 +20,11 @@ var setCookie = (function(){
 
 $(function(){
 
-	$("#login").click(function(){
+	$("#login").submit(function(){
 		$.get("../only/auth.pl",  { passwd: $("#passwd").val() }, function(data){
 			setCookie({onlyhash:data}, 1);
+			window.location.href = window.location.href;
+			return true;
 		});
 	});
 
