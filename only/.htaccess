@@ -1,6 +1,8 @@
-RewriteEngine  on
+RewriteEngine on
 RewriteBase /ccs/new/only/
-RewriteCond %{HTTP_COOKIE} !onlyhash=pc
+RewriteRule login.html - [L]
+RewriteRule auth.pl - [L]
+RewriteCond %{HTTP_COOKIE} !onlyhash=4fb0c7f61f887b0a624a05b54c271288
 RewriteRule ^(.*)$ login.html [L]
 
 AddHandler cgi-script pl
