@@ -1,5 +1,6 @@
 
 // http://qiita.com/Evolutor_web/items/449065d1bd82c51fef4c
+// period: expire time(hour)
 var setCookie = (function(){
 	return function(data, period) {
 		var cookies = '';
@@ -8,7 +9,7 @@ var setCookie = (function(){
 		}
 
 		var expire = new Date();
-		expire.setTime( expire.getTime() + 1000 * 3600 * 24 * period);
+		expire.setTime( expire.getTime() + 1000 * 3600 * period);
 		expire.toUTCString();
 
 		cookies += 'expires=' + expire+';';
@@ -21,7 +22,7 @@ $(function(){
 
 	$("#login").click(function(){
 		$.get("../only/auth.pl",  { passwd: $("#passwd").val() }, function(data){
-			setCookie({onlyhash:data}, '1h');
+			setCookie({onlyhash:data}, 1);
 		});
 	});
 
